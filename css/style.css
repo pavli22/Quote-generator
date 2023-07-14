@@ -1,0 +1,23 @@
+body {
+  background-color: #18122b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #1a374d;
+  color: #eff5f5;
+  border-radius: 50px 50px 0 50px;
+  transition: border-radius 400ms;
+}
+.container:hover {
+  border-radius: 0;
+}
+.container .bg-p {
+  color: #eff5f5;
+}
+.btn {
+  --bs-btn-padding-x: 35px;
+  --bs-btn-padding-y: 20px;
+}
